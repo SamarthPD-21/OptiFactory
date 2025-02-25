@@ -27,12 +27,12 @@ The **OptiFactory** is a web-based platform designed to streamline inventory man
 ### Frontend:
 
 - **React.js** / **Angular.js** for UI
-- **Tailwind CSS** / **Bootstrap** for styling
+- **Tailwind CSS** for styling
 
 ### Backend:
 
 - **Node.js** with **Express.js**
-- **PostgreSQL** / **MySQL** for database management
+- **MySQL** for database management
 
 ### Infrastructure:
 
