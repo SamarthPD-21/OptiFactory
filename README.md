@@ -1,8 +1,8 @@
-# OptiFactory
+# OPTIFACTORY
 
 ## Overview
 
-The **Business & Factory Management System** is a web-based platform designed to streamline inventory management, billing, and order processing for businesses requiring **Production, Stock, and Sales** management. The system aims to reduce manual errors, save time, and improve business efficiency.
+The **OptiFactory** is a web-based platform designed to streamline inventory management, billing, and order processing for businesses requiring **Production, Stock, and Sales** management. The system aims to reduce manual errors, save time, and improve business efficiency.
 
 ## Features
 
