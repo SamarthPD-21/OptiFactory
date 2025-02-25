@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery Payment Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Bakery Payment & Balance Tracker</h2>
+
+        <select id="bakery-select" onchange="selectBakery()">
+            <option value="">Select a Bakery</option>
+            <option value="Bakery X">Bakery X</option>
+            <option value="Bakery Y">Bakery Y</option>
+            <option value="Bakery Z">Bakery Z</option>
+        </select>
+
+        <div id="payment-section" class="hidden">
+            <p><strong>Selected Bakery:</strong> <span id="selected-bakery"></span></p>
+            <p><strong>Previous Balance:</strong> ₹<span id="previous-balance">0.00</span></p>
+
+            <input type="number" id="bill-amount" placeholder="Enter bill amount">
+            <button onclick="calculateTotal()">Calculate Total Due</button>
+            
+            <p><strong>Total Amount Due:</strong> ₹<span id="total-due">0.00</span></p>
+
+            <input type="number" id="amount-paid" placeholder="Enter amount paid">
+            <button onclick="updateBalance()">Submit Payment</button>
+
+            <div class="balance-info">
+                <p><strong>Updated Balance:</strong> ₹<span id="updated-balance">0.00</span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
